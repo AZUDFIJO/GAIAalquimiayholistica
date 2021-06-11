@@ -1,0 +1,160 @@
+/* Color de fondo */
+body {
+	background-color: rgba(206, 107, 249, 1.0);
+}
+a {
+	text-decoration: none;
+}
+
+
+/* Diseño encabezado */
+.encabezado {
+	margin: 0px;
+	padding: 20px;
+	background-color: rgba(126, 18, 219, 1.0);
+	border-radius: 10px;
+	position: relative;
+}
+ul {
+	list-style: none;
+}
+ul > li {
+	display: inline;
+	padding: 20px 40px;
+	line-height: 30px;
+	font-size: 20px;
+}
+#botones {
+	vertical-align: middle;
+	position: absolute;
+	bottom: 0px;
+	left: 120px;
+}
+.btn-lila {
+	color: rgb(255, 255, 255);
+	font-family: Lora;
+}
+
+/* Diseño mensaje bienvenida */
+#mensaje p {
+	text-align: center;
+	padding: 200px 100px;
+	font-family: calibri;
+	font-style: italic;
+	font-size: 30px;
+	color: rgba(255, 255, 0, 0.9);
+	text-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+#mensaje {
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	border-radius: 10px;
+	width: 1000px;
+	margin: 50px auto;
+}
+
+
+/* Diseño cards */
+.call-action {
+	width: 1000px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin: 50px auto;
+}
+.cards {
+	width: 320px;
+	height: 500px;
+	text-align: center;
+	background-color: rgba(209, 66, 255, 0.7);
+	border-radius: 50px;
+	box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+.cards h3 {
+	position: relative;
+	top: 5%;
+	font-size: 30px;
+	color: rgb(223, 206, 232);
+	font-family: Lora;
+}
+.cards img {
+	border-radius: 50%;
+	box-shadow: 0 0 20px rgba(126, 18, 219, 1.0);
+}
+h1 {
+	text-align: center;
+	padding: 50px;
+	font-size: 40px;
+	font-family: Lora;
+	letter-spacing: 7px;
+	font-weight: 900;
+	text-shadow: 1px 1px 20px rgb(255, 255, 255);
+}
+
+
+/* Diseño pie de página */
+#pie {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: rgba(126, 18, 219, 1.0);
+	border-radius: 10px;
+}
+.contactos {
+	padding: 30px;
+	text-align: center;
+}
+.contactos p {
+	font-family: calibri;
+	font-style: italic;
+	color: white;
+}
+
+
+/* Formato de imágenes */
+#logo {
+	height: 150px;
+	vertical-align: middle;
+	border-radius: 30px;
+	box-shadow: 0px 0px 50px rgba(255, 255, 255, 1.0);
+}
+#magnheal > img {
+	width: 300px;
+	margin-top: 50px;
+}
+#pendegip > img {
+	width: 300px;
+	margin-top: 40px;
+}
+#pendhebreo > img {
+	width: 250px;
+	margin-top: 30px;
+}
+#reiki > img {
+	width: 300px;
+	margin-top: 50px;
+}
+#regak > img {
+	width: 200px;
+	margin-top: 20px;
+}
+#hop > img {
+	width: 240px;
+	margin-top: 20px;
+}
+#logowpp {
+	width: 40px;
+	height: 40px;
+}
+#logogmail {
+	width: 40px;
+	height: 40px;
+}
+#logodireccion {
+	width: 40px;
+	height: 40px;
+}
+
+
